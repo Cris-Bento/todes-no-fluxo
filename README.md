@@ -108,7 +108,7 @@ Essa é a rota que será utilizada para cadastrar um novo usuario no sistema.
 ```
 
 ```javascript
-// HTTP Status 400 
+// HTTP Status 400 / 401 /403
 {
     "mensagem": "O email cadastrado já existe."
 }
@@ -159,7 +159,7 @@ Essa é a rota que permite o usuario cadastrado realizar o login no sistema.
 ```
 
 ```javascript
-// HTTP Status 400 
+// HTTP Status 400 / 401 /403
 {
     "mensagem": "Usuário ou senha não conferem."
 }
@@ -210,7 +210,7 @@ Essa é a rota que será chamada quando o usuario quiser obter os dados do seu p
 ```
 
 ```javascript
-// HTTP Status 400 
+// HTTP Status 400 / 401 /403
 {
     "mensagem": "Token não informado."
 }
@@ -271,7 +271,7 @@ Essa é a rota que será chamada quando o usuário quiser realizar alterações 
 ```
 
 ```javascript
-// HTTP Status 400 
+// HTTP Status 400 / 401 /403
 {
     "mensagem": "O email cadastrado já existe."
 }
@@ -312,14 +312,14 @@ Essa é a rota que será chamada quando o usuario logado quiser excluir sua cont
 ```
 
 ```javascript
-// HTTP Status 400 
+// HTTP Status 400 / 401 /403
 {
     "mensagem": "O usuario não foi excluido."
 }
 ```
 ---
 
-Link do deploy da API somente para testes: [ link]()
+Link do deploy da API somente para testes: [ link](https://api-todes-no-fluxo.herokuapp.com/)
 
 ---
 
